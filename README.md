@@ -2,7 +2,7 @@
 
 A fully automated trading system using Interactive Brokers API (IBAPI) and an ensemble of deep learning models (GRU, LSTM, CNN). This system supports historical data collection, model training, backtesting, Monte Carlo simulations, and live trading on IBKR.
 
-## 🚀 Features
+## Features
 
 - **IBKR API Connection**: Place market, limit, bracket, and combo orders.
 - **Historical Data Fetching**: Parallelized multi-threaded download using IBKR's rate limits.
@@ -22,7 +22,7 @@ A fully automated trading system using Interactive Brokers API (IBAPI) and an en
   - Position sizing based on available funds.
   - Stop-loss and profit-taking brackets.
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
    ```bash
