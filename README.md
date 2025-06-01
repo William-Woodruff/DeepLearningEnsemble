@@ -21,3 +21,9 @@ A fully automated trading system using Interactive Brokers API (IBAPI) and an en
 - **Risk Management**:
   - Position sizing based on available funds.
   - Stop-loss and profit-taking brackets.
+ 
+## No IBKR TWS API access
+
+Without IBKR access, my code will not be able to retrieve new historical data from IBKR and will not be able to live trade. However, it will still be able to train, test, and backtest CNN, LSTM, and GRU models for future live trading use. 
+
+Run NoIBKR.py for that. 
